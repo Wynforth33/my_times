@@ -1,5 +1,5 @@
 /* General Styles */
-body {
+* {
   margin: 0;
 }
 
@@ -11,9 +11,9 @@ h2 {
   font-size: 30px;
   font-weight: bold;
 }
-/* div {
+ div {
   border: 1px solid black;
-} */
+}
 
 nav span {
   display: inline-block;
