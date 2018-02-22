@@ -7,9 +7,9 @@ a {
   color: black;
 }
 
-div {
+/* div {
   border: 1px solid black;
-}
+} */
 
 nav span {
   display: inline-block;
@@ -81,10 +81,39 @@ header nav {
   color: black;
 }
 
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story {
+  width: 300px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.text-content {
+  height: 225px;
+}
+
+.news-bites h3 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.bite {
+  padding: 10px 20px 10px 10px;
+  border-bottom: 1px solid black;
+}
+
+
 /* Images */
 #lead {
   background-image: url("../images/drinks.png");
   margin-top: 0;
+  width: 630px;
 }
 
 #lead span {
